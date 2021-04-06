@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6De6q005eXPRBAr9PlehHabjTkI5vxLa/K+ryWFIzko+cQ9pVCxZsNOVPfHp/nG69krIHPeu1jbLwddu73jduQ==",
+  "dgSpecHash": "/XuQ671LC7A7CGNMEfuu04Y9rnn865ro5Iqx7xI6H3PI+7+jAZDp9lZZJBarRf2ok5mHWeX3Nuiy8ruFjRrVWQ==",
   "success": true,
-  "projectFilePath": "C:\\oni\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+  "projectFilePath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dev 02\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Dev 02\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
