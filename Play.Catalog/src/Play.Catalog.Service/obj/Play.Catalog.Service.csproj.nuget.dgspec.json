@@ -1,33 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
-        "packagesPath": "C:\\Users\\Dev 02\\.nuget\\packages\\",
-        "outputPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+        "projectPath": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+        "packagesPath": "/Users/macdev02/.nuget/packages/",
+        "outputPath": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dev 02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/macdev02/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/caliburn-micro-builds/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -47,7 +43,7 @@
           "dependencies": {
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.12.1, )"
+              "version": "[2.12.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -72,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -40,7 +40,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "MongoDB.Bson/2.12.1": {
+      "MongoDB.Bson/2.12.2": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
@@ -52,11 +52,11 @@
           "lib/netstandard2.1/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.12.1": {
+      "MongoDB.Driver/2.12.2": {
         "type": "package",
         "dependencies": {
-          "MongoDB.Bson": "2.12.1",
-          "MongoDB.Driver.Core": "2.12.1",
+          "MongoDB.Bson": "2.12.2",
+          "MongoDB.Driver.Core": "2.12.2",
           "MongoDB.Libmongocrypt": "1.2.1"
         },
         "compile": {
@@ -66,11 +66,11 @@
           "lib/netstandard2.1/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.12.1": {
+      "MongoDB.Driver.Core/2.12.2": {
         "type": "package",
         "dependencies": {
           "DnsClient": "1.4.0",
-          "MongoDB.Bson": "2.12.1",
+          "MongoDB.Bson": "2.12.2",
           "MongoDB.Libmongocrypt": "1.2.1",
           "SharpCompress": "0.23.0",
           "System.Buffers": "4.5.1"
@@ -328,10 +328,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "MongoDB.Bson/2.12.1": {
-      "sha512": "jlp4O/BS2noUoM8dCQLIoJ+SYodVWiRV3R6kh4YCOIgrA0LzAp+6fGKy6lFaPUfzsuooZjO+/gbJMog8Z7Cs6A==",
+    "MongoDB.Bson/2.12.2": {
+      "sha512": "J6BuU4N9mD780KUI964zQbwuOMPpeRcsx4Lj98LaYd+l6pEEogin+BNFqnandwCqYjPlQGnmuDkqZXoIumAYTQ==",
       "type": "package",
-      "path": "mongodb.bson/2.12.1",
+      "path": "mongodb.bson/2.12.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -344,15 +344,15 @@
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.12.1.nupkg.sha512",
+        "mongodb.bson.2.12.2.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver/2.12.1": {
-      "sha512": "/xHHkcX4Ezo1zjcel3vNqVyz3ZJcgDzreMqkaTY/vn8IyQrowckMEqmwUmCoSDG5IsVPD46hg772ITyjBDSHoA==",
+    "MongoDB.Driver/2.12.2": {
+      "sha512": "OWHZmRx9AMtfInSKa9vFjTFOnzik2w9eeA6X5Dw0iHYMfObS6e805v1evi6cp4g/CIllzVdCjW+haKThKwInFQ==",
       "type": "package",
-      "path": "mongodb.driver/2.12.1",
+      "path": "mongodb.driver/2.12.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -365,15 +365,15 @@
         "lib/netstandard2.0/MongoDB.Driver.xml",
         "lib/netstandard2.1/MongoDB.Driver.dll",
         "lib/netstandard2.1/MongoDB.Driver.xml",
-        "mongodb.driver.2.12.1.nupkg.sha512",
+        "mongodb.driver.2.12.2.nupkg.sha512",
         "mongodb.driver.nuspec",
         "packageIcon.png"
       ]
     },
-    "MongoDB.Driver.Core/2.12.1": {
-      "sha512": "QDSgx/UAOGMA00DMtdXk/7qR4ocC8abcOE/QU8UhyrNTyMa+NcKtUVcGHnuNIAMLUlKbSW+bWrjGiKDv0t9Fcw==",
+    "MongoDB.Driver.Core/2.12.2": {
+      "sha512": "cU5AOB45bX/kMsnyp8733aaZxbRAumMszlZ5xuy3Lo7G0E9S1Gqqt1KlkyD7etzMyTZSzcWnHTg8LXH9ym/JkA==",
       "type": "package",
-      "path": "mongodb.driver.core/2.12.1",
+      "path": "mongodb.driver.core/2.12.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -403,7 +403,7 @@
         "lib/netstandard2.0/MongoDB.Driver.Core.xml",
         "lib/netstandard2.1/MongoDB.Driver.Core.dll",
         "lib/netstandard2.1/MongoDB.Driver.Core.xml",
-        "mongodb.driver.core.2.12.1.nupkg.sha512",
+        "mongodb.driver.core.2.12.2.nupkg.sha512",
         "mongodb.driver.core.nuspec",
         "packageIcon.png",
         "runtimes/win/native/libzstd.dll",
@@ -626,38 +626,34 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "MongoDB.Driver >= 2.12.1",
+      "MongoDB.Driver >= 2.12.2",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dev 02\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/macdev02/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+      "projectUniqueName": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
       "projectName": "Play.Catalog.Service",
-      "projectPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
-      "packagesPath": "C:\\Users\\Dev 02\\.nuget\\packages\\",
-      "outputPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+      "projectPath": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/Play.Catalog.Service.csproj",
+      "packagesPath": "/Users/macdev02/.nuget/packages/",
+      "outputPath": "/Users/macdev02/Documents/oni/DotNet5Microservices/Play.Catalog/src/Play.Catalog.Service/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dev 02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/macdev02/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/caliburn-micro-builds/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -677,7 +673,7 @@
         "dependencies": {
           "MongoDB.Driver": {
             "target": "Package",
-            "version": "[2.12.1, )"
+            "version": "[2.12.2, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -702,7 +698,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
