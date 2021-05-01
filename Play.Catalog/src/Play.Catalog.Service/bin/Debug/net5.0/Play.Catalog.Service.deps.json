@@ -33,7 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Play.Catalog.Service/1.0.0": {
         "dependencies": {
-          "MongoDB.Driver": "2.12.1",
+          "MongoDB.Driver": "2.12.2",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -350,48 +350,48 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "MongoDB.Bson/2.12.1": {
+      "MongoDB.Bson/2.12.2": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Bson.dll": {
-            "assemblyVersion": "2.12.1.0",
-            "fileVersion": "2.12.1.0"
+            "assemblyVersion": "2.12.2.0",
+            "fileVersion": "2.12.2.0"
           }
         },
         "compile": {
           "lib/netstandard2.1/MongoDB.Bson.dll": {}
         }
       },
-      "MongoDB.Driver/2.12.1": {
+      "MongoDB.Driver/2.12.2": {
         "dependencies": {
-          "MongoDB.Bson": "2.12.1",
-          "MongoDB.Driver.Core": "2.12.1",
+          "MongoDB.Bson": "2.12.2",
+          "MongoDB.Driver.Core": "2.12.2",
           "MongoDB.Libmongocrypt": "1.2.1"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Driver.dll": {
-            "assemblyVersion": "2.12.1.0",
-            "fileVersion": "2.12.1.0"
+            "assemblyVersion": "2.12.2.0",
+            "fileVersion": "2.12.2.0"
           }
         },
         "compile": {
           "lib/netstandard2.1/MongoDB.Driver.dll": {}
         }
       },
-      "MongoDB.Driver.Core/2.12.1": {
+      "MongoDB.Driver.Core/2.12.2": {
         "dependencies": {
           "DnsClient": "1.4.0",
-          "MongoDB.Bson": "2.12.1",
+          "MongoDB.Bson": "2.12.2",
           "MongoDB.Libmongocrypt": "1.2.1",
           "SharpCompress": "0.23.0",
           "System.Buffers": "4.5.1"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Driver.Core.dll": {
-            "assemblyVersion": "2.12.1.0",
-            "fileVersion": "2.12.1.0"
+            "assemblyVersion": "2.12.2.0",
+            "fileVersion": "2.12.2.0"
           }
         },
         "runtimeTargets": {
@@ -403,12 +403,12 @@
           "runtimes/win/native/snappy32.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           },
           "runtimes/win/native/snappy64.dll": {
             "rid": "win",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "1.1.1.7"
           }
         },
         "compile": {
@@ -2250,26 +2250,26 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "MongoDB.Bson/2.12.1": {
+    "MongoDB.Bson/2.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jlp4O/BS2noUoM8dCQLIoJ+SYodVWiRV3R6kh4YCOIgrA0LzAp+6fGKy6lFaPUfzsuooZjO+/gbJMog8Z7Cs6A==",
-      "path": "mongodb.bson/2.12.1",
-      "hashPath": "mongodb.bson.2.12.1.nupkg.sha512"
+      "sha512": "sha512-J6BuU4N9mD780KUI964zQbwuOMPpeRcsx4Lj98LaYd+l6pEEogin+BNFqnandwCqYjPlQGnmuDkqZXoIumAYTQ==",
+      "path": "mongodb.bson/2.12.2",
+      "hashPath": "mongodb.bson.2.12.2.nupkg.sha512"
     },
-    "MongoDB.Driver/2.12.1": {
+    "MongoDB.Driver/2.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/xHHkcX4Ezo1zjcel3vNqVyz3ZJcgDzreMqkaTY/vn8IyQrowckMEqmwUmCoSDG5IsVPD46hg772ITyjBDSHoA==",
-      "path": "mongodb.driver/2.12.1",
-      "hashPath": "mongodb.driver.2.12.1.nupkg.sha512"
+      "sha512": "sha512-OWHZmRx9AMtfInSKa9vFjTFOnzik2w9eeA6X5Dw0iHYMfObS6e805v1evi6cp4g/CIllzVdCjW+haKThKwInFQ==",
+      "path": "mongodb.driver/2.12.2",
+      "hashPath": "mongodb.driver.2.12.2.nupkg.sha512"
     },
-    "MongoDB.Driver.Core/2.12.1": {
+    "MongoDB.Driver.Core/2.12.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QDSgx/UAOGMA00DMtdXk/7qR4ocC8abcOE/QU8UhyrNTyMa+NcKtUVcGHnuNIAMLUlKbSW+bWrjGiKDv0t9Fcw==",
-      "path": "mongodb.driver.core/2.12.1",
-      "hashPath": "mongodb.driver.core.2.12.1.nupkg.sha512"
+      "sha512": "sha512-cU5AOB45bX/kMsnyp8733aaZxbRAumMszlZ5xuy3Lo7G0E9S1Gqqt1KlkyD7etzMyTZSzcWnHTg8LXH9ym/JkA==",
+      "path": "mongodb.driver.core/2.12.2",
+      "hashPath": "mongodb.driver.core.2.12.2.nupkg.sha512"
     },
     "MongoDB.Libmongocrypt/1.2.1": {
       "type": "package",

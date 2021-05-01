@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Play.Catalog.Service.Dto
+namespace Play.Catalog.Service.Dtos
 {
     public record ItemDto(Guid Id, string Name, string Description, decimal price, DateTimeOffset CreatedDate);
 
