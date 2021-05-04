@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\play.catalog.service\\Play.Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\Dev 02\\.nuget\\packages\\",
-        "outputPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+        "outputPath": "C:\\oni\\DotNet5Microservices\\Play.Catalog\\src\\play.catalog.service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
